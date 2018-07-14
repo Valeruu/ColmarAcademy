@@ -70,5 +70,119 @@ ul li a {
   display: flex;
   position: relative;
   padding-top: 64px;
-  border: 3px dotted black;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.banner .img {
+  display: block;
+  width: 60%;
+}
+
+.img img {
+  width: 100%;
+}
+
+.start {
+  display: flex;
+  width: 40%;
+  margin-left: 24px;
+}
+
+.start-here {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* This is the about us section */
+
+.about {
+  display: flex;
+  margin: 32px 24px;
+}
+
+.practice {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  width: 60%;
+}
+
+.practice img {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.orientation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.orientation img {
+  width: 35%;
+  height: 35%;
+}
+
+.orientation .date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 24px;
+  width: 65%;
+}
+
+.our-campus {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.our-campus img {
+  width: 35%;
+  height: 35%;
+}
+
+.our-campus .campus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 24px;
+  width: 65%;
+}
+
+.lecture {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.lecture img {
+  width: 35%;
+  height: 35%;
+}
+
+.lecture .guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 24px;
+  width: 65%;
 }
