@@ -369,3 +369,34 @@ ul li a {
   margin-left: 24px;
   width: 65%;
 }
+
+/* This is the footer section */
+
+footer  {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 2px solid black;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 24px;
+  border: 2px solid red;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 24px;
+}
+
+.terms h5 {
+  margin-left: 16px;
+}
