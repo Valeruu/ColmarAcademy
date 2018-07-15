@@ -16,6 +16,7 @@ h2 {
  font-weight: 600;
  margin-top: 24px;
  font-family: Kanit, Arial, "sans-serif";
+ color: #d4d4dc;
 }
 
 
@@ -27,6 +28,7 @@ header {
   height: 64px;
   position: fixed;
   z-index: 2;
+  background-color: #393f4d;
 }
 
 .header {
@@ -40,11 +42,12 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: 50%;
+  fill: #d4d4dc;
 }
 
 .school-logo img {
   margin-left: 24px;
-  margin-right: 12px
+  margin-right: 12px;
   height: 1.75rem;
   width: auto;
 }
@@ -55,6 +58,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .school-logo .normal {
@@ -63,6 +67,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .navigation-desktop {
@@ -94,6 +99,7 @@ ul li a {
   font-weight: normal;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 
@@ -107,7 +113,7 @@ ul li a {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 32px;
-  background-color: lightyellow;
+  background-color: #1d1e22;
 }
 
 .banner .img {
@@ -141,6 +147,7 @@ ul li a {
   line-height: 1.25;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .start-here p {
@@ -150,6 +157,7 @@ ul li a {
   margin-bottom: 64px;
   line-height: 1.25;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 .start-here span {
@@ -163,14 +171,14 @@ ul li a {
   height: 3rem;
   padding-top: 16px;
   text-align: center;
-  background-color: lightgray;
+  background-color: #feda6a;
   border-radius: 10px;
 }
 
 .button a {
   margin: 8px auto;
   text-decoration: none;
-  color: black;
+  color: #1d1e22;
 }
 
 
@@ -181,7 +189,7 @@ ul li a {
   padding-left: 24px;
   padding-right: 24px;
   width: 100%;
-  background-color: lightgray;
+  background-color: #393f4d;
 }
 
 .practice {
@@ -206,6 +214,7 @@ ul li a {
   margin-top: 24px;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .text p {
@@ -216,6 +225,7 @@ ul li a {
   line-height: 1.5;
   letter-spacing: 1px;
   font-family: "Architects Daughter", cursive;
+  color: #d4d4dc;
 }
 
 .text h5 {
@@ -225,6 +235,7 @@ ul li a {
   margin-bottom: 32px;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 .info {
@@ -261,7 +272,7 @@ ul li a {
   width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: lightyellow;
+  background-color: #1d1e22;
 }
 
 .information {
@@ -277,6 +288,7 @@ ul li a {
  font-weight: 600;
  letter-spacing: 1px;
  font-family: Kanit, Arial, "sans-serif";
+ color: #d4d4dc;
 }
 
 .information p {
@@ -285,6 +297,7 @@ ul li a {
  line-height: 1.5;
  font-weight: 500;
  font-family: Alegreya, Georgia, serif;
+ color: #d4d4dc;
 }
 
 .information a {
@@ -293,6 +306,7 @@ ul li a {
  line-height: 1.5;
  font-weight: 400;
  font-family: Alegreya, Georgia, serif;
+ color: #d4d4dc;
 }
 
 
@@ -305,7 +319,7 @@ ul li a {
   padding-left: 72px;
   padding-right: 72px;
   padding-bottom: 32px;
-  background-color: lightyellow;
+  background-color: #1d1e22;
 }
 
 .learn {
@@ -336,6 +350,7 @@ ul li a {
   margin-bottom: 16px;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .course-info h4 {
@@ -347,6 +362,7 @@ ul li a {
   margin-bottom: 16px;
   font-weight: 500;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 .course-info p {
@@ -357,6 +373,7 @@ ul li a {
   margin-top: 16px;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 .courses1 div {
@@ -392,7 +409,7 @@ ul li a {
   padding-right: 24px;
   padding-bottom: 24px;
   width: 100%;
-  background-color: lightgray;
+  background-color: #393f4d;
 }
 
 .exhibit {
@@ -435,6 +452,7 @@ ul li a {
   margin-top: 24px;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .video-text p {
@@ -447,6 +465,7 @@ ul li a {
   line-height: 1.5;
   margin-top: 32px;
   margin-bottom: 32px;
+  color: #d4d4dc;
 }
 
 .exhibitions {
@@ -472,7 +491,7 @@ ul li a {
 .fisma {
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: lightyellow;
+  background-color: #1d1e22;
 }
 
 .exhibit-info {
@@ -489,6 +508,7 @@ ul li a {
   line-height: 1.5;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
+  color: #d4d4dc;
 }
 
 .exhibit-info p {
@@ -497,6 +517,7 @@ ul li a {
   line-height: 1.5;
   font-weight: 500;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 
@@ -510,7 +531,7 @@ footer  {
   padding-right: 16px;
   padding-bottom: 16px;
   padding-top: 16px;
-  background-color: lightyellow;
+  background-color: #393f4d;
 }
 
 .copyright {
@@ -524,6 +545,7 @@ footer  {
   font-size: 1rem;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
 
 .terms {
@@ -541,4 +563,5 @@ footer  {
   text-decoration: none;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #d4d4dc;
 }
