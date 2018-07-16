@@ -319,7 +319,9 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-left: 24px;
+  margin-right: 24px;
   width: 65%;
 }
 
@@ -699,6 +701,9 @@ footer  {
 
 @media only screen and (max-device-width: 667px) {
 /* Styles */
+  .body {
+    width: max-device-width;
+  }
   .school-logo {
     display: none;
   }
@@ -720,5 +725,162 @@ footer  {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .banner {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .banner .img {
+    width: 100%;
+  }
+  .banner .img img {
+    width: 100%;
+  }
+  .start {
+    width: 100%;
+    margin-left: 0px;
+    border: none;
+  }
+  .start-here h1 {
+    padding-top: 32px;
+    font-size: 2rem;
+  }
+  .start-here p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    font-size: 1rem;
+  }
+  .start-here .button {
+    width: 100%;
+    margin-top: 16px;
+    padding-top: 0px;
+    height: 2rem;
+    }
+  .button a {
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  .about {
+    padding-bottom: 0px;
+  }
+  .practice {
+    display: none;
+  }
+  .info {
+    width: 100%;
+    margin-left: -24px;
 
+    border: none;
+  }
+  .info div {
+    width: 100%
+  }
+  .lecture {
+    background-color: #393f4d;
+  }
+  .information {
+    margin-right: 16px;
+  }
+  .information h3 {
+   font-size: 1.2rem;
+  }
+  .information p {
+   font-size: 0.9rem;
+  }
+  .information a {
+   font-size: 0.8rem;
+  }
+  .learning {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .learn {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .courses {
+    flex-direction: column;
+    width: 100%;
+  }
+  .courses1 {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .courses1 div {
+    width: 100%;
+    padding-right: 0px;
+    border: 1px;
+  }
+  .courses2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .courses2 div {
+    width: 100%;
+    padding-right: 0px;
+    border: 1px;
+  }
+  .courses1 div img {
+    display: none;
+  }
+  .courses2 div img {
+    display: none;
+  }
+  .course-info h3 {
+    margin-right: 16px;
+    width: 90%;
+    height: 2rem;
+    padding-top: 16px;
+    text-align: center;
+    color: #1d1e22;
+    background-color: #feda6a;
+    border-radius: 10px;
+    transition: background-color 2s ease 0.2s;
+  }
+  .course-info h4 {
+    display: none;
+  }
+  .course-info p {
+    display: none;
+  }
+  .thesis {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .thesis .exhibit {
+    width: 100%;
+  }
+  .demonstration {
+    width: 100%;
+    padding-right: 0px;
+    border: none;
+  }
+  .video {
+    width: 100%;
+  }
+  .video video {
+    width: 100%;
+  }
+  .video-text {
+    display: none;
+  }
+  .exhibitions {
+    display: none;
+  }
+  footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .copyright {
+    width: 90%;
+  }
+  footer .terms {
+    display: none;
+  }
 }
