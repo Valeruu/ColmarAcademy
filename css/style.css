@@ -28,6 +28,7 @@ header {
   height: 64px;
   position: fixed;
   z-index: 2;
+  border-bottom: 1px solid #d4d4dc;
   background-color: #393f4d;
 }
 
@@ -99,6 +100,11 @@ ul li a {
   font-weight: normal;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
+  color: #feda6a;
+  transition-property: color;
+}
+
+ul li a:hover {
   color: #d4d4dc;
 }
 
@@ -113,6 +119,7 @@ ul li a {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #d4d4dc;
   background-color: #1d1e22;
 }
 
@@ -128,7 +135,8 @@ ul li a {
 .start {
   display: flex;
   width: 40%;
-  margin-left: 24px;
+  margin-left: 64px;
+  border-left: 1px solid #d4d4dc;
 }
 
 .start-here {
@@ -173,7 +181,14 @@ ul li a {
   text-align: center;
   background-color: #feda6a;
   border-radius: 10px;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
 }
+
+.start-here .button:hover {
+  background-color: #d4d4dc;
+}
+
 
 .button a {
   margin: 8px auto;
@@ -188,7 +203,9 @@ ul li a {
   display: flex;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 32px;
   width: 100%;
+  border-bottom: 1px solid #d4d4dc;
   background-color: #393f4d;
 }
 
@@ -245,7 +262,7 @@ ul li a {
   width: 40%;
   margin-right: 24px;
   margin-top: 32px;
-  padding-bottom: 32px;
+  border-left: 1px solid #d4d4dc;
 }
 
 .info div img {
@@ -258,12 +275,29 @@ ul li a {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-bottom: 44px;
+  border-bottom: 1px solid #d4d4dc;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
+}
+
+.orientation:hover {
+  background-color: #feda6a;
 }
 
 .our-campus {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-bottom: 44px;
+  padding-top: 40px;
+  border-bottom: 1px solid #d4d4dc;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
+}
+
+.our-campus:hover {
+  background-color: #feda6a;
 }
 
 .lecture {
@@ -273,6 +307,12 @@ ul li a {
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: #1d1e22;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
+}
+
+.lecture:hover {
+  background-color: #feda6a;
 }
 
 .information {
@@ -289,6 +329,12 @@ ul li a {
  letter-spacing: 1px;
  font-family: Kanit, Arial, "sans-serif";
  color: #d4d4dc;
+ transition-property: color;
+ transition: color 2s ease 0.2s;
+}
+
+.information h3:hover {
+  color: #393f4d
 }
 
 .information p {
@@ -298,6 +344,12 @@ ul li a {
  font-weight: 500;
  font-family: Alegreya, Georgia, serif;
  color: #d4d4dc;
+ transition-property: color;
+ transition: color 2s ease 0.2s;
+}
+
+.information p:hover {
+  color: #393f4d;
 }
 
 .information a {
@@ -306,7 +358,13 @@ ul li a {
  line-height: 1.5;
  font-weight: 400;
  font-family: Alegreya, Georgia, serif;
- color: #d4d4dc;
+ color: #feda6a;
+ transition-property: color;
+ transition: color 2s ease 0.2s;
+}
+
+.information a:hover {
+  color: #393f4d;
 }
 
 
@@ -319,6 +377,7 @@ ul li a {
   padding-left: 72px;
   padding-right: 72px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #d4d4dc;
   background-color: #1d1e22;
 }
 
@@ -340,6 +399,36 @@ ul li a {
   flex-direction: row;
   width: 100%;
   margin-bottom: 32px;
+}
+
+.courses1 div {
+  border: 1px solid #d4d4dc;
+  box-shadow: 0px 0px 0px #d4d4dc;
+  transition-property: box-shadow;
+  transition: box-shadow 750ms ease-out 150ms;
+}
+
+.courses1 div:hover {
+  box-shadow: 5px 5px 50px #d4d4dc;
+}
+
+.courses1 div img {
+  border-bottom: 1px solid #d4d4dc;
+}
+
+.courses2 div {
+  border: 1px solid #d4d4dc;
+  box-shadow: 0px 0px 0px #d4d4dc;
+  transition-property: box-shadow;
+  transition: box-shadow 750ms ease-out 150ms;
+}
+
+.courses2 div:hover {
+  box-shadow: 5px 5px 50px #d4d4dc;
+}
+
+.courses2 div img {
+  border-bottom: 1px solid #d4d4dc;
 }
 
 .course-info h3 {
@@ -417,6 +506,7 @@ ul li a {
   flex-direction: column;
   align-items: center;
   margin-right: 24px;
+  padding-bottom: 24px;
   width: 100%;
 }
 
@@ -429,6 +519,8 @@ ul li a {
   display: flex;
   flex-direction: column;
   width: 60%;
+  padding-right: 24px;
+  border-right: 1px solid #d4d4dc;
 }
 
 .video {
@@ -437,13 +529,11 @@ ul li a {
 
 .video video {
   width: 100%;
-  margin-top: 16px;
 }
 
 .video-text {
   display: flex;
   flex-direction: column;
-  margin-top: 24px;
 }
 
 .video-text h3 {
@@ -478,7 +568,6 @@ ul li a {
   display: flex;
   width: 100%;
   height: auto;
-  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -490,8 +579,15 @@ ul li a {
 
 .fisma {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d4d4dc;
   background-color: #1d1e22;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
+}
+
+.fisma:hover {
+  background-color: #feda6a;
 }
 
 .exhibit-info {
@@ -502,6 +598,20 @@ ul li a {
   width: 65%;
 }
 
+.exhibit-info:hover {
+  color: #393f4d;
+}
+
+
+.exhibit-info h3:hover {
+  color: #393f4d;
+}
+
+.exhibit-info p:hover {
+  color: #393f4d;
+}
+
+
 .exhibit-info h3 {
   font-size: 1.375rem;
   font-weight: 600;
@@ -509,6 +619,8 @@ ul li a {
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
   color: #d4d4dc;
+  transition-property: color;
+  transition: color 2s ease 0.2s;
 }
 
 .exhibit-info p {
@@ -518,7 +630,10 @@ ul li a {
   font-weight: 500;
   font-family: Alegreya, Georgia, serif;
   color: #d4d4dc;
+  transition-property: color;
+  transition: color 2s ease 0.2s;
 }
+
 
 
 /* This is the footer section */
@@ -531,6 +646,7 @@ footer  {
   padding-right: 16px;
   padding-bottom: 16px;
   padding-top: 16px;
+  border-top: 1px solid #d4d4dc;
   background-color: #393f4d;
 }
 
@@ -564,4 +680,45 @@ footer  {
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
   color: #d4d4dc;
+}
+
+
+
+/* This is the media query section */
+
+/* Tablet/laptop/desktop */
+
+@media only screen and (min-device-width: 667px){
+/* Styles */
+  .navigation-mobile {
+  display: none;
+  }
+}
+
+/* Mobile section */
+
+@media only screen and (max-device-width: 667px) {
+/* Styles */
+  .school-logo {
+    display: none;
+  }
+  .navigation-desktop {
+  display: none;
+  }
+  .header {
+    display: flex;
+    height: 64px;
+  }
+  .navigation-mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid #d4d4dc;
+  }
+  .navigation-mobile img {
+    height: 2.75rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
 }

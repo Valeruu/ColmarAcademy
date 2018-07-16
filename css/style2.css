@@ -16,7 +16,7 @@ h2 {
  font-weight: 600;
  margin-top: 24px;
  font-family: Kanit, Arial, "sans-serif";
- color: #d4d4dc;
+ color: #333333;
 }
 
 
@@ -28,7 +28,7 @@ header {
   height: 64px;
   position: fixed;
   z-index: 2;
-  background-color: #393f4d;
+  background-color: #ffee77;
 }
 
 .header {
@@ -42,7 +42,6 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: 50%;
-  fill: #d4d4dc;
 }
 
 .school-logo img {
@@ -58,7 +57,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .school-logo .normal {
@@ -67,7 +66,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .navigation-desktop {
@@ -99,7 +98,7 @@ ul li a {
   font-weight: normal;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 
@@ -113,7 +112,7 @@ ul li a {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 32px;
-  background-color: #1d1e22;
+  background-color: #ffee66;
 }
 
 .banner .img {
@@ -147,7 +146,7 @@ ul li a {
   line-height: 1.25;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .start-here p {
@@ -157,7 +156,7 @@ ul li a {
   margin-bottom: 64px;
   line-height: 1.25;
   font-family: Alegreya, Georgia, serif;
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .start-here span {
@@ -171,14 +170,14 @@ ul li a {
   height: 3rem;
   padding-top: 16px;
   text-align: center;
-  background-color: #feda6a;
+  background-color: ##ffee77;
   border-radius: 10px;
 }
 
 .button a {
   margin: 8px auto;
   text-decoration: none;
-  color: #1d1e22;
+  color: #ffaa00;
 }
 
 
@@ -189,7 +188,7 @@ ul li a {
   padding-left: 24px;
   padding-right: 24px;
   width: 100%;
-  background-color: #393f4d;
+  background-color: #ffee77;
 }
 
 .practice {
@@ -214,7 +213,7 @@ ul li a {
   margin-top: 24px;
   letter-spacing: 1px;
   font-family: Kanit, Arial, "sans-serif";
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .text p {
@@ -225,7 +224,7 @@ ul li a {
   line-height: 1.5;
   letter-spacing: 1px;
   font-family: "Architects Daughter", cursive;
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .text h5 {
@@ -235,7 +234,7 @@ ul li a {
   margin-bottom: 32px;
   font-weight: 400;
   font-family: Alegreya, Georgia, serif;
-  color: #d4d4dc;
+  color: #ffaa00;
 }
 
 .info {
@@ -272,7 +271,7 @@ ul li a {
   width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: #1d1e22;
+  background-color: ##ffee66;
 }
 
 .information {
@@ -288,7 +287,7 @@ ul li a {
  font-weight: 600;
  letter-spacing: 1px;
  font-family: Kanit, Arial, "sans-serif";
- color: #d4d4dc;
+ color: #ffaa00;
 }
 
 .information p {
@@ -297,7 +296,7 @@ ul li a {
  line-height: 1.5;
  font-weight: 500;
  font-family: Alegreya, Georgia, serif;
- color: #d4d4dc;
+ color: #ffaa00;
 }
 
 .information a {
@@ -306,7 +305,7 @@ ul li a {
  line-height: 1.5;
  font-weight: 400;
  font-family: Alegreya, Georgia, serif;
- color: #d4d4dc;
+ color: #ffaa00;
 }
 
 
