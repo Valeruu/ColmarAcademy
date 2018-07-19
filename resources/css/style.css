@@ -551,6 +551,9 @@ footer  {
   .navigation-mobile {
   display: none;
   }
+  .mobile{
+    display: none;
+  }
 }
 /* Mobile section */
 @media only screen and (max-device-width: 667px) {
@@ -660,5 +663,8 @@ footer  {
     background-color: #feda6a;
     border-radius: 10px;
     transition: background-color 2s ease 0.2s;
+  }
+  .desktop {
+    display: none;
   }
 }
