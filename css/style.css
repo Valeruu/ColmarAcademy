@@ -16,6 +16,12 @@ h2 {
  color: #d4d4dc;
 }
 
+/* This is the color Palette
+  #d4d4dc
+  #393f4d
+  #1d1e22
+  #feda6a */
+
 /* Display: flex; */
 .banner, .banner .img-box, .start, .start-here, .about, .img-box, .text, .info, .orientation, .our-campus, .lecture, .information, .learning, .learn, .courses, .course-name, .course-name, .thesis, .exhibit, .exhibition, .video-text, .exhibitions, .exhibit-info, footer, .copyright, .terms {
   display: flex;
@@ -72,7 +78,7 @@ header, .about, .lecture, .thesis {
 header {
   display: flex;
   height: 64px;
-  width: 1400px;
+  width: 1423px;
   position: fixed;
   z-index: 2;
   border-bottom: 1px solid #d4d4dc;
