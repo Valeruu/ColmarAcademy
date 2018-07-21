@@ -22,7 +22,7 @@ h2 {
 }
 
 /* Width: 100%; */
-header, .header, .navigation-desktop .navigation, .img img, .start-here .button, .img-box, .img-box img, .orientation, .our-campus, .lecture, .learn, .courses, .course-name, .course-name, .courses div img, .exhibit, .exhibition, .video, .video video, .exhibitions div, footer {
+.header, .navigation-desktop .navigation, .img img, .start-here .button, .img-box, .img-box img, .orientation, .our-campus, .lecture, .learn, .courses, .course-name, .course-name, .courses div img, .exhibit, .exhibition, .video, .video video, .exhibitions div, footer {
   width: 100%;
 }
 
@@ -72,6 +72,7 @@ header, .about, .lecture, .thesis {
 header {
   display: flex;
   height: 64px;
+  width: 1423px;
   position: fixed;
   z-index: 2;
   border-bottom: 1px solid #d4d4dc;
