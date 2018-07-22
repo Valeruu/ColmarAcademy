@@ -34,11 +34,11 @@ header, .header, .navigation-desktop .navigation, .img img, .start-here .button,
 }
 
 /* Background-color: #393f4d; */
-header, .about, .lecture, .thesis {
+header, .about, .thesis {
   background-color: #393f4d;
 }
 /* Background-color: #1d1e22; */
-.banner, .learning, .fisma {
+.banner, .lecture, .learning, .fisma {
   background-color: #1d1e22;
 }
 
@@ -149,6 +149,7 @@ ul li a {
 
 ul li a:hover {
   color: #d4d4dc;
+  transition: color 1s linear 0s;
 }
 
 
@@ -207,7 +208,7 @@ ul li a:hover {
   background-color: #feda6a;
   border-radius: 10px;
   transition-property: background-color;
-  transition: background-color 2s ease 0.2s;
+  transition: background-color 1s linear 0s;
 }
 
 .start-here .button:hover {
@@ -267,7 +268,7 @@ ul li a:hover {
 .orientation, .our-campus, .lecture {
   flex-direction: row;
   transition-property: background-color;
-  transition: background-color 2s ease 0.2s;
+  transition: background-color 1s linear 0s;
 }
 
 .orientation, .our-campus {
@@ -275,8 +276,12 @@ ul li a:hover {
   border-bottom: 1px solid #d4d4dc;
 }
 
-.info div:hover {
-  background-color: #feda6a;
+.orientation:hover, .our-campus:hover {
+  background-color: #1d1e22;
+}
+
+.lecture:hover {
+  background-color: #393f4d;
 }
 
 .our-campus {
@@ -299,7 +304,7 @@ ul li a:hover {
 
 .information h3, .information p, .information a {
   transition-property: color;
-  transition: color 2s ease 0.2s;
+  transition: color 1s ease 0.2s;
 }
 
 .information h3 {
@@ -317,11 +322,15 @@ ul li a:hover {
   font-size: 1.10rem;
   text-decoration: none;
   line-height: 1.5;
-  transition: color 2s ease 0.2s;
+  transition: color 1s ease 0.2s;
 }
 
-.information h3:hover, .information p:hover, .information a:hover  {
-  color: #393f4d;
+.information h3:hover, .information p:hover {
+  color: #feda6a;
+}
+
+.information a:hover  {
+  color: #d4d4dc;
 }
 
 /* This is the learning section */
@@ -355,7 +364,7 @@ ul li a:hover {
   border: 1px solid #d4d4dc;
   box-shadow: 0px 0px 0px #d4d4dc;
   transition-property: box-shadow;
-  transition: box-shadow 750ms ease-out 150ms;
+  transition: box-shadow 750ms ease-out 100ms;
 }
 
 .course-name div:hover {
@@ -464,22 +473,22 @@ ul li a:hover {
   padding-bottom: 24px;
   border-bottom: 1px solid #d4d4dc;
   transition-property: background-color;
-  transition: background-color 2s ease 0.2s;
+  transition: background-color 1s linear;
 }
 
 .fisma:hover {
-  background-color: #feda6a;
+  background-color: #393f4d;
 }
 
 .now-then {
   padding-top: 32px;
   padding-bottom: 24px;
   transition-property: background-color;
-  transition: background-color 2s ease 0.2s;
+  transition: background-color 1s linear;
 }
 
 .now-then:hover {
-  background-color: #feda6a;
+  background-color: #1d1e22;
 }
 
 .exhibit-info {
@@ -489,24 +498,30 @@ ul li a:hover {
   width: 65%;
 }
 
-.exhibit-info:hover, .exhibit-info h3:hover, .exhibit-info p:hover {
-  color: #393f4d;
-}
-
 .exhibit-info h3 {
   font-size: 1.375rem;
   line-height: 1.5;
   letter-spacing: 1px;
+  color: #d4d4dc;
   transition-property: color;
-  transition: color 2s ease 0.2s;
+  transition: color 1s linear;
+}
+
+.exhibit-info h3:hover {
+  color: #feda6a;
+}
+
+.exhibit-info p:hover {
+  color: #feda6a;
 }
 
 .exhibit-info p {
   font-size: 1.25rem;
   text-decoration: none;
   line-height: 1.5;
+  color: #d4d4dc;
   transition-property: color;
-  transition: color 2s ease 0.2s;
+  transition: color 1s linear;
 }
 
 /* This is the footer section */
